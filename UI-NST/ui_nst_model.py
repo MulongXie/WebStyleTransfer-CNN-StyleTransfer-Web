@@ -1,7 +1,8 @@
 import tensorflow as tf
-import cv2
 import numpy as np
 import ui_nst_utils as nu
+import ui_nst_image as image
+
 
 def content_cost(a_C, a_G):
     m, n_H, n_W, n_C = a_G.get_shape().as_list()
@@ -16,6 +17,7 @@ def gram(A):
     ga = tf.matmul(A, tf.transpose(A))
     return ga
 
+
 def style_layer_cost(a_S, a_G):
     m, n_H, n_W, n_C = a_G.get_shape().as_list()
     a_S = tf.reshape(tf.transpose(a_S), [n_C, n_W * n_H])
@@ -24,6 +26,7 @@ def style_layer_cost(a_S, a_G):
     GG = gram(a_G)
     J_style_layer = (1 / (2 * n_C * n_H * n_W)) ** 2 * tf.reduce_sum((tf.square((tf.subtract(GS, GG)))))
     return J_style_layer
+
 
 def style_cost(model, STYLE_LAYERS, sess):
     J_style = 0
@@ -42,16 +45,10 @@ def total_cost(J_content, J_style, alpha=10, beta=30):
     return J
 
 
-def load_img(path):
-    img = cv2.imread(path)
-    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
-    img = cv2.resize(img, (400, 300))
-    return img
-
 def NST_model(num_iter=1000):
-    content_img = load_img("con_car.jpg")
+    content_img = image.load_img("con_button.jpg")
     content_img = nu.reshape_and_normalize_image(content_img)
-    style_img = load_img("style_nahan.jpg")
+    style_img = image.load_img("style_nahan.jpg")
     style_img = nu.reshape_and_normalize_image(style_img)
     generated_img = nu.generate_noise_image(content_img)
 
