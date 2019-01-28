@@ -1,7 +1,6 @@
 import tensorflow as tf
 import numpy as np
 import ui_nst_utils as nu
-import ui_nst_image as image
 
 
 def content_cost(a_C, a_G):
@@ -45,56 +44,48 @@ def total_cost(J_content, J_style, alpha=10, beta=30):
     return J
 
 
-def NST_model(num_iter=1000):
-    content_img = image.load_img("con_button.jpg")
-    content_img = nu.reshape_and_normalize_image(content_img)
-    style_img = image.load_img("style_nahan.jpg")
-    style_img = nu.reshape_and_normalize_image(style_img)
+def NST_model(content_img, style_img, sess, model, output="output", num_iter=1000):
+
     generated_img = nu.generate_noise_image(content_img)
 
     print(np.shape(content_img))
     print(np.shape(style_img))
     print(np.shape(generated_img))
 
-    with tf.Session() as sess:
-        model = nu.load_vgg_model("D:/datasets/VGG/pretrained-model/imagenet-vgg-verydeep-19.mat")
-        sess.run(model['input'].assign(content_img))
-        out = model['conv4_2']
+    out = model['conv4_2']
 
-        a_c = sess.run(out)
-        a_g = out
-        J_content = content_cost(a_c, a_g)
+    a_c = sess.run(out)
+    a_g = out
+    J_content = content_cost(a_c, a_g)
 
-        STYLE_LAYERS = [
-            ('conv1_1', 0.2),
-            ('conv2_1', 0.2),
-            ('conv3_1', 0.2),
-            ('conv4_1', 0.2),
-            ('conv5_1', 0.2)]
-        sess.run(model['input'].assign(style_img))
-        J_style = style_cost(model, STYLE_LAYERS, sess)
-        J = total_cost(J_content, J_style)
+    STYLE_LAYERS = [
+        ('conv1_1', 0.2),
+        ('conv2_1', 0.2),
+        ('conv3_1', 0.2),
+        ('conv4_1', 0.2),
+        ('conv5_1', 0.2)]
+    sess.run(model['input'].assign(style_img))
+    J_style = style_cost(model, STYLE_LAYERS, sess)
+    J = total_cost(J_content, J_style)
 
-        optimizer = tf.train.AdamOptimizer(2.0)
-        train_step = optimizer.minimize(J)
+    optimizer = tf.train.AdamOptimizer(2.0)
+    train_step = optimizer.minimize(J)
 
-        tf.global_variables_initializer().run()
-        sess.run(model['input'].assign(generated_img))
+    tf.global_variables_initializer().run()
+    sess.run(model['input'].assign(generated_img))
 
-        for i in range(num_iter):
-            sess.run(train_step)
-            generated_img = sess.run(model['input'])
-            if i % 20 == 0:
-                Jt, Jc, Js = sess.run([J, J_content, J_style])
-                print("Iteration " + str(i) + " :")
-                print("total cost = " + str(Jt))
-                print("content cost = " + str(Jc))
-                print("style cost = " + str(Js))
-                print(generated_img.shape)
-                nu.save_image("output/" + str(i) + ".png", generated_img)
+    for i in range(num_iter):
+        sess.run(train_step)
+        generated_img = sess.run(model['input'])
+        if i % 20 == 0:
+            Jt, Jc, Js = sess.run([J, J_content, J_style])
+            print("Iteration " + str(i) + " :")
+            print("total cost = " + str(Jt))
+            print("content cost = " + str(Jc))
+            print("style cost = " + str(Js))
+            print(generated_img.shape)
+            nu.save_image(output + "/" + str(i) + ".png", generated_img)
 
-        nu.save_image("output/generated_image.png", generated_img)
+    nu.save_image(output + "/generated_image.png", generated_img)
 
     return generated_img
-
-NST_model()
