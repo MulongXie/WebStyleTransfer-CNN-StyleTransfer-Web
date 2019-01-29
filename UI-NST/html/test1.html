@@ -1,0 +1,97 @@
+<html>
+<head>
+    <title>LogSearch</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="public/plotly-latest.min.js"></script>
+    <style>
+    body{
+        background-image: url("t1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: "Century Gothic";
+    }
+    #input{
+        margin:0px auto;
+        width:500px;
+
+        background-color: #88b6bc;
+    }
+
+    #show_all{
+        width: 180px;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+
+    #nav_bar{
+        width: 80%;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 0;
+
+        display: none;
+    }
+    #nav_bar button{
+        width: 150px;
+        height: 30px;
+        font-family: "Century Gothic";
+    }
+
+    button{
+        font-family: "Yu Gothic UI";
+        overflow: hidden;
+        background-color: #00B7FF;
+    }
+
+    </style>
+</head>
+
+
+<body>
+<div id="logoimg" align="center">
+    <img src="t2.png" id="logo" width="260" height="150">
+</div>
+
+
+<div id="input">
+    <h2 align="center">
+    Log Searching System <br>
+    </h2>
+    <div align="center">
+        <button id="show_all">Show All Data on Server</button>
+    </div>
+
+    <div id="input_folder" align="center">
+        <input type="text" id="folder" placeholder="Input target folder" list="folderList" onkeypress="enterPress1(event)">
+        <button id="sbmt_folder" class="sbmt_button" onclick="show()">Select</button>
+    </div>
+
+    <div align="center">
+        <p id="folder_name"></p>
+    </div>
+
+    <div id="input_keyword" align="center" style="display: none;">
+        <input type="text" id="keyword" placeholder="Input keyword" onkeypress="enterPress2(event)">
+        <button id="sbmt_keyword" class="sbmt_button">Search</button>
+    </div>
+</div>
+
+
+
+<script type="application/javascript">
+
+    // keyword input div popup
+    function show() {
+        var folder = document.getElementById('folder').value;
+        if (folder === "All"){
+            folder = "All (Database; Folders: IT, operator)"
+        }
+        document.getElementById('input_keyword').style.display = 'block';
+        document.getElementById('folder_name').innerText = 'Current Folder: ' + folder;
+    }
+
+
+</script>
+
+</body>
+</html>
