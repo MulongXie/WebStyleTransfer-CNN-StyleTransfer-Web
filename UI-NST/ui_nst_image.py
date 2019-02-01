@@ -10,13 +10,14 @@ def load_img(path):
 
 
 def generate_bkg_img(rgb):
-    img = np.ones((20, 40, 3))
-    img[:, :, 0] = rgb[0]
+    img = np.ones((100, 150), dtype=np.uint8)
+    img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB)
+    img[:, :, 0] = rgb[2]
     img[:, :, 1] = rgb[1]
-    img[:, :, 2] = rgb[2]
+    img[:, :, 2] = rgb[0]
 
     cv2.imshow('img', img)
-    cv2.imwrite("con_button2.jpg", img)
+    cv2.imwrite("con_button1.jpg", img)
     cv2.waitKey(0)
 
 
