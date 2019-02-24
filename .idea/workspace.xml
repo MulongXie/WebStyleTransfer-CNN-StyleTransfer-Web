@@ -2,68 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ebe6baa-4087-4266-8662-762e1e02cdc9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UI-NST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/con_button0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/con_button0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/con_button1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/con_button1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/con_car.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/html/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/html/test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/new1.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/new1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/new2.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/new2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/100.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/120.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/120.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/140.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/140.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/160.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/160.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/180.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/180.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/200.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/220.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/220.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/240.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/260.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/260.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/280.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/280.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/300.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/320.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/320.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/340.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/340.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/360.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/360.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/380.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/380.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/400.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/420.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/420.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/440.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/440.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/460.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/460.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/480.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/480.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/60.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/80.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/80.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output0/generated_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output0/generated_image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/100.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/120.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/120.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/140.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/140.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/160.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/160.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/180.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/180.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/200.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/220.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/220.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/240.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/240.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/260.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/260.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/280.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/280.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/300.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/320.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/320.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/340.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/340.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/360.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/360.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/380.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/380.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/400.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/420.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/420.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/440.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/440.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/460.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/460.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/480.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/480.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/60.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/80.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/80.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/output1/generated_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/output1/generated_image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/ui_nst_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/ui_nst_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI-NST/ui_nst_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI-NST/ui_nst_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_nst_new2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI-NST/html/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ui_nst_main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ui_nst_main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+            <state relative-caret-position="289">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -89,8 +30,20 @@
       <file leaf-file-name="ui_nst_image.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="306">
               <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui_nst_model.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,12 +107,6 @@
               <item name="WebStyleTransfer-CNN-StyleTransfer-Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebStyleTransfer-CNN-StyleTransfer-Web" type="462c0819:PsiDirectoryNode" />
               <item name="UI-NST" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebStyleTransfer-CNN-StyleTransfer-Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebStyleTransfer-CNN-StyleTransfer-Web" type="462c0819:PsiDirectoryNode" />
-              <item name="UI-NST" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,19 +251,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12241653" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12241653" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25223613" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25223613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -354,6 +300,50 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
@@ -401,30 +391,8 @@
     <entry file="file://$PROJECT_DIR$/ui_nst_new2.py" />
     <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_new1.py" />
     <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_new2.py" />
-    <entry file="file://$PROJECT_DIR$/UI-NST/html/style_v3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="104" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI-NST/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="199" column="60" selection-end-line="296" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/UI-NST/html/style_v3.css" />
+    <entry file="file://$PROJECT_DIR$/UI-NST/html/index.html" />
     <entry file="file://$PROJECT_DIR$/UI-NST/new1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -446,17 +414,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state relative-caret-position="306">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_main.py">
+    <entry file="file://$PROJECT_DIR$/UI-NST/ui_nst_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+        <state relative-caret-position="340">
+          <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
