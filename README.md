@@ -14,4 +14,4 @@ to
   - and transfer their style
   - then eventually generate a new UI with the original layout and new style.
 
-[APPENDING]
+[FIRST-STAGE DONE]
