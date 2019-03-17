@@ -16,3 +16,5 @@ to
 
 [FIRST-STAGE DONE]
 
+Able to transfer the background of each web components and reconstitute the a style page.
+
