@@ -14,4 +14,7 @@ to
   - and transfer their style
   - then eventually generate a new UI with the original layout and new style.
 
-[APPENDING]
+[FIRST-STAGE DONE]
+
+Able to transfer the background of each web components and reconstitute the a style page.
+
